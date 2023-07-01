@@ -9,6 +9,7 @@
 </template>
 <script>
 export default {
+  // v-model 은 내부적으로 checked 속송과 바인딩이 이루어짐
   data() {
     return {
       picked: '',

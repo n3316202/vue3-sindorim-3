@@ -14,6 +14,10 @@
     <router-link to="/databindingbutton11">Data Binding v-bind 버튼예제(disabled)</router-link> |
     <router-link to="/databindingclass12">Data Binding v-bind 클래스예제-1</router-link> |
     <router-link to="/databindingclass13">Data Binding v-bind 클래스예제-2</router-link> |
+    <hr />
+    <router-link to="/databindinglist14">Data Binding v-for 예제-1</router-link> |
+    <router-link to="/databindinglist15">Data Binding v-for 예제-2</router-link> |
+    <router-link to="/renderingvif16">렌더링 if 예제</router-link> |
   </nav>
   <router-view />
 </template>

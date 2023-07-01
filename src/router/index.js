@@ -98,9 +98,19 @@ const routes = [
       import(/* webpackChunkName: "databindinglist15" */ '../views/directives/vfor/DataBindingList15.vue')
   },
   {
-    path: '/renderingvif16',
-    name: 'RenderingVif16',
-    component: () => import(/* webpackChunkName: "renderingvif16" */ '../views/directives/vif/RenderingVif16.vue')
+    path: '/eventclick17',
+    name: 'EventClick17',
+    component: () => import(/* webpackChunkName: "renderingvif16" */ '../views/directives/von/EventClick17.vue')
+  },
+  {
+    path: '/eventchange18',
+    name: 'EventChange18',
+    component: () => import(/* webpackChunkName: "renderingvif16" */ '../views/directives/von/EventChange18.vue')
+  },
+  {
+    path: '/eventkey19',
+    name: 'EventKey19',
+    component: () => import(/* webpackChunkName: "renderingvif16" */ '../views/directives/von/EventKey19.vue')
   }
 ]
 

@@ -18,6 +18,9 @@
     <router-link to="/databindinglist14">Data Binding v-for 예제-1</router-link> |
     <router-link to="/databindinglist15">Data Binding v-for 예제-2</router-link> |
     <router-link to="/renderingvif16">렌더링 if 예제</router-link> |
+    <router-link to="/eventclick17">이벤트 클릭 예제</router-link> |
+    <router-link to="/eventchange18">이벤트 change 예제</router-link> |
+    <router-link to="/eventkey19">이벤트 Key 예제</router-link> |
   </nav>
   <router-view />
 </template>

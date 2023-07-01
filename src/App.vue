@@ -4,6 +4,16 @@
     <router-link to="/databindinghtml2">Data Binding Html</router-link> |
     <router-link to="/databindingInputText3">Data Binding InputText</router-link> |
     <router-link to="/databindinginputnumber4">Data Binding number input</router-link> |
+    <router-link to="/databindingtextarea5">Data Binding text area</router-link> |
+    <router-link to="/databindingselect6">Data Binding Select</router-link> |
+    <router-link to="/databindingcheckbox7">Data Binding Check Box</router-link> |
+    <router-link to="/databindingcheckbox8">Data Binding Check Box2</router-link> |
+    <router-link to="/databindingcheckbox8">Data Binding Radio</router-link> |
+    <hr />
+    <router-link to="/databindingattribute10">Data Binding v-bind 예제(img/src)</router-link> |
+    <router-link to="/databindingbutton11">Data Binding v-bind 버튼예제(disabled)</router-link> |
+    <router-link to="/databindingclass12">Data Binding v-bind 클래스예제-1</router-link> |
+    <router-link to="/databindingclass13">Data Binding v-bind 클래스예제-2</router-link> |
   </nav>
   <router-view />
 </template>

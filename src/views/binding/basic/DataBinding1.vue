@@ -1,5 +1,6 @@
 <template>
   <h1>Hello, {{ title }}!</h1>
+  <h1 v-text="fruit"></h1>
 </template>
 
 <script>
@@ -8,7 +9,8 @@
 export default {
   data() {
     return {
-      title: 'World'
+      title: 'World',
+      fruit: 'orange'
     }
   }
 }

@@ -1,24 +1,11 @@
-# vue3-sindorim-3
+https://velog.io/@vencott/04-Vue-Router-%EC%84%A4%EC%A0%95
 
-## Project setup
-```
-npm install
-```
+학습을 위해서 뷰 라우터를 먼저 설치 해야 한다.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### Vue-Router 설치
 
-### Compiles and minifies for production
-```
-npm run build
-```
+vue add router
 
-### Lints and fixes files
-```
-npm run lint
-```
+main.js 에서 아래와 같이 use(router) 가 추가 되었는지 확인
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+createApp(App).use(router).mount('#app')

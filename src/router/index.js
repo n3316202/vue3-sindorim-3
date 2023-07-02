@@ -111,6 +111,21 @@ const routes = [
     path: '/eventkey19',
     name: 'EventKey19',
     component: () => import(/* webpackChunkName: "renderingvif16" */ '../views/directives/von/EventKey19.vue')
+  },
+  {
+    path: '/method1',
+    name: 'ComputedVSMethod1',
+    component: () => import(/* webpackChunkName: "method1" */ '../views/funtions/ComputedVSMethod1.vue')
+  },
+  {
+    path: '/method2',
+    name: 'ComputedVSMethod2',
+    component: () => import(/* webpackChunkName: "method2" */ '../views/funtions/ComputedVSMethod2.vue')
+  },
+  {
+    path: '/method3',
+    name: 'WatchMethod3',
+    component: () => import(/* webpackChunkName: "method2" */ '../views/funtions/WatchMethod3.vue')
   }
 ]
 

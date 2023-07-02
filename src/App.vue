@@ -21,6 +21,10 @@
     <router-link to="/eventclick17">이벤트 클릭 예제</router-link> |
     <router-link to="/eventchange18">이벤트 change 예제</router-link> |
     <router-link to="/eventkey19">이벤트 Key 예제</router-link> |
+    <hr />
+    <router-link to="/method1">Method VS Computed 예제1</router-link> |
+    <router-link to="/method2">Method VS Computed 예제2</router-link> |
+    <router-link to="/method3">watch 예제</router-link> |
   </nav>
   <router-view />
 </template>

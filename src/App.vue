@@ -38,7 +38,8 @@
     <hr />
     <router-link to="/compo1">컴포넌트-예제 1</router-link> |
     <hr />
-    <router-link to="/props1">프롭스-예제 1</router-link> |
+    <router-link to="/props1">프롭스-예제 1(이벤트 직접 발생 시키기)</router-link> |
+    <router-link to="/props2">프롭스-예제 2(함수 직접 호출)</router-link> |
   </nav>
   <router-view />
 </template>

@@ -177,10 +177,14 @@ const routes = [
     component: () => import(/* webpackChunkName: "compo1" */ '../views/compo/NestedComponent.vue')
   },
   {
-    //src\views\props\ParentComponentView1.vue
     path: '/props1',
-    name: 'ParentComponentView',
-    component: () => import(/* webpackChunkName: "props1" */ '../views/props/ParentComponentView1.vue')
+    name: 'ParentComponent1',
+    component: () => import(/* webpackChunkName: "props1" */ '../views/props/ParentComponent1.vue')
+  },
+  {
+    path: '/props2',
+    name: 'ParentComponent2',
+    component: () => import(/* webpackChunkName: "props2" */ '../views/props/ParentComponent2.vue')
   }
 ]
 

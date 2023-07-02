@@ -158,6 +158,17 @@ const routes = [
     path: '/axios5',
     name: 'AxiosSyncView5',
     component: () => import(/* webpackChunkName: "axios5" */ '../views/axios/AxiosSyncView5.vue')
+  },
+  {
+    //src\views\event\EventChangeView1.vue
+    path: '/event1',
+    name: 'EventChangeView1',
+    component: () => import(/* webpackChunkName: "event1" */ '../views/event/EventChangeView1.vue')
+  },
+  {
+    path: '/event2',
+    name: 'EventKeyView2',
+    component: () => import(/* webpackChunkName: "event2" */ '../views/event/EventKeyView2.vue')
   }
 ]
 

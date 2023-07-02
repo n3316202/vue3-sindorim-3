@@ -33,6 +33,8 @@
     <router-link to="/axios3">Axios-예제 3 - Post 방식 2</router-link> |
     <router-link to="/axios4">Axios-예제 4 - 글로벌 세팅</router-link> |
     <router-link to="/axios5">Axios-예제 5 - 동기화 예제</router-link> |
+    <hr />
+    <router-link to="/event1">이벤트-예제 1</router-link> | <router-link to="/event2">이벤트-예제 2</router-link> |
   </nav>
   <router-view />
 </template>

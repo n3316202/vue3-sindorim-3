@@ -35,6 +35,10 @@
     <router-link to="/axios5">Axios-예제 5 - 동기화 예제</router-link> |
     <hr />
     <router-link to="/event1">이벤트-예제 1</router-link> | <router-link to="/event2">이벤트-예제 2</router-link> |
+    <hr />
+    <router-link to="/compo1">컴포넌트-예제 1</router-link> |
+    <hr />
+    <router-link to="/props1">프롭스-예제 1</router-link> |
   </nav>
   <router-view />
 </template>

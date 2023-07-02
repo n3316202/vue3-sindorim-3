@@ -169,6 +169,18 @@ const routes = [
     path: '/event2',
     name: 'EventKeyView2',
     component: () => import(/* webpackChunkName: "event2" */ '../views/event/EventKeyView2.vue')
+  },
+  {
+    //src\views\compo\NestedComponent.vue
+    path: '/compo1',
+    name: 'NestedComponent',
+    component: () => import(/* webpackChunkName: "compo1" */ '../views/compo/NestedComponent.vue')
+  },
+  {
+    //src\views\props\ParentComponentView1.vue
+    path: '/props1',
+    name: 'ParentComponentView',
+    component: () => import(/* webpackChunkName: "props1" */ '../views/props/ParentComponentView1.vue')
   }
 ]
 

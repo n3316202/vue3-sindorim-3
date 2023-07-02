@@ -8,9 +8,11 @@
     <!-- 숫자형 전달 -->
     <!-- <PageTitle :level="2" /> -->
 
-    <!-- 배열전달 전달 -->
-    <PageTitle :level="2" :arrNum="[1, 2, 3, 4]" />
+    <!-- 배열 전달 -->
+    <!-- <PageTitle :level="2" :arrNum="[1, 2, 3, 4]" /> -->
 
+    <!-- 객체 전달 -->
+    <!-- <PageTitle :objTitle="{ id: 1, title: 'abcd' }" /> -->
     <!-- 문자형 전달 -->
     <!-- <PageTitle title="부모 컴포넌트에서 자식 컴포넌트로 데이터 전달" /> -->
   </div>

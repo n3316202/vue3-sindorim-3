@@ -8,6 +8,7 @@
 
   <h2>isBool : {{ isBool }}</h2>
   <h2>arrNum : {{ arrNum }}</h2>
+  <h2>objTitle : {{ objTitle.id }} : {{ objTitle.title }}</h2>
 </template>
 <script>
 export default {
@@ -26,7 +27,18 @@ export default {
       type: Boolean,
       default: false
     },
-    arrNum: []
+    arrNum: {
+      type: Array,
+      default: function () {
+        return [1, 2]
+      }
+    },
+    objTitle: {
+      type: Object,
+      default: function () {
+        return { id: 1, title: '디폴트' }
+      }
+    }
   }
 }
 </script>

@@ -1,5 +1,5 @@
 <!-- https://sungjaecloud.tistory.com/314 -->
-https://velog.io/@kungsboy/Vue-3.0-Compute-vs-Watch-%EC%B0%A8%EC%9D%B4
+<!-- https://velog.io/@kungsboy/Vue-3.0-Compute-vs-Watch-%EC%B0%A8%EC%9D%B4 -->
 
 <template>
   <h1>full name : {{ fullName }}</h1>

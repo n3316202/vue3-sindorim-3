@@ -27,6 +27,12 @@
     <router-link to="/method3">watch 예제</router-link> |
     <hr />
     <router-link to="/lifecycle">라이프 사이클 예제</router-link> |
+    <hr />
+    <router-link to="/axios1">Axios-예제 1 - Get 방식 </router-link> |
+    <router-link to="/axios2">Axios-예제 2 - Post 방식</router-link> |
+    <router-link to="/axios3">Axios-예제 3 - Post 방식 2</router-link> |
+    <router-link to="/axios4">Axios-예제 4 - 글로벌 세팅</router-link> |
+    <router-link to="/axios5">Axios-예제 5 - 동기화 예제</router-link> |
   </nav>
   <router-view />
 </template>

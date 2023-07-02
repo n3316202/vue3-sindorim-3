@@ -132,6 +132,32 @@ const routes = [
     path: '/lifecycle',
     name: 'LifeCyleEvent1',
     component: () => import(/* webpackChunkName: "lifecycle" */ '../views/lifecycle/LifeCyleEvent1.vue')
+  },
+  {
+    //src\views\axios\AxiosBasicGetView1.vue
+    path: '/axios1',
+    name: 'AxiosBasicGetView1',
+    component: () => import(/* webpackChunkName: "axios1" */ '../views/axios/AxiosBasicGetView1.vue')
+  },
+  {
+    path: '/axios2',
+    name: 'AxiosBasicPostView2',
+    component: () => import(/* webpackChunkName: "axios2" */ '../views/axios/AxiosBasicPostView2.vue')
+  },
+  {
+    path: '/axios3',
+    name: 'AxiosBasicPostView3',
+    component: () => import(/* webpackChunkName: "axios3" */ '../views/axios/AxiosBasicPostView3.vue')
+  },
+  {
+    path: '/axios4',
+    name: 'AxiosGlobalExample4',
+    component: () => import(/* webpackChunkName: "axios4" */ '../views/axios/AxiosGlobalExample4.vue')
+  },
+  {
+    path: '/axios5',
+    name: 'AxiosSyncView5',
+    component: () => import(/* webpackChunkName: "axios5" */ '../views/axios/AxiosSyncView5.vue')
   }
 ]
 

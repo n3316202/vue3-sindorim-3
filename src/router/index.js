@@ -125,7 +125,13 @@ const routes = [
   {
     path: '/method3',
     name: 'WatchMethod3',
-    component: () => import(/* webpackChunkName: "method2" */ '../views/funtions/WatchMethod3.vue')
+    component: () => import(/* webpackChunkName: "method3" */ '../views/funtions/WatchMethod3.vue')
+  },
+  {
+    //src\views\lifecycle\LifeCyleEvent1.vue
+    path: '/lifecycle',
+    name: 'LifeCyleEvent1',
+    component: () => import(/* webpackChunkName: "lifecycle" */ '../views/lifecycle/LifeCyleEvent1.vue')
   }
 ]
 

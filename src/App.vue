@@ -25,6 +25,8 @@
     <router-link to="/method1">Method VS Computed 예제1</router-link> |
     <router-link to="/method2">Method VS Computed 예제2</router-link> |
     <router-link to="/method3">watch 예제</router-link> |
+    <hr />
+    <router-link to="/lifecycle">라이프 사이클 예제</router-link> |
   </nav>
   <router-view />
 </template>

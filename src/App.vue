@@ -40,6 +40,8 @@
     <hr />
     <router-link to="/props1">프롭스-예제 1(이벤트 직접 발생 시키기)</router-link> |
     <router-link to="/props2">프롭스-예제 2(함수 직접 호출)</router-link> |
+    <router-link to="/props3">프롭스-예제 3(데이터값 직접 변경)</router-link> |
+    <router-link to="/props4 ">프롭스-예제 4($emit)-(자식에서 부모로)</router-link> |
   </nav>
   <router-view />
 </template>

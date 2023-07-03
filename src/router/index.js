@@ -185,6 +185,16 @@ const routes = [
     path: '/props2',
     name: 'ParentComponent2',
     component: () => import(/* webpackChunkName: "props2" */ '../views/props/ParentComponent2.vue')
+  },
+  {
+    path: '/props3',
+    name: 'ParentComponent3',
+    component: () => import(/* webpackChunkName: "props3" */ '../views/props/ParentComponent3.vue')
+  },
+  {
+    path: '/props4',
+    name: 'ParentComponentEmit4',
+    component: () => import(/* webpackChunkName: "props4" */ '../views/props/ParentComponentEmit4.vue')
   }
 ]
 

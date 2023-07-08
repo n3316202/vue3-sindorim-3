@@ -98,6 +98,11 @@ const routes = [
       import(/* webpackChunkName: "databindinglist15" */ '../views/directives/vfor/DataBindingList15.vue')
   },
   {
+    path: '/renderingvif16',
+    name: 'renderingvif16',
+    component: () => import(/* webpackChunkName: "renderingvif16" */ '../views/directives/vif/RenderingVif16.vue')
+  },
+  {
     path: '/eventclick17',
     name: 'EventClick17',
     component: () => import(/* webpackChunkName: "renderingvif16" */ '../views/directives/von/EventClick17.vue')

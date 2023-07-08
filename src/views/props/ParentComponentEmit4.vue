@@ -3,7 +3,7 @@
 </template>
 <script>
 //
-import ChildComponent from './ChildComponentEmit4'
+import ChildComponent from '@/views/props/ChildComponentEmit4.vue'
 export default {
   components: { ChildComponent },
   methods: {

@@ -202,6 +202,12 @@ const routes = [
     path: '/slot',
     name: 'SlotUseModalLayout',
     component: () => import(/* webpackChunkName: "slot" */ '../views/slot/SlotUseModalLayout.vue')
+  },
+  {
+    //src\views\provideinject\FirstComponent.vue
+    path: '/provide',
+    name: 'BigComponent',
+    component: () => import(/* webpackChunkName: "provide" */ '../views/provideinject/BigComponent1.vue')
   }
 ]
 

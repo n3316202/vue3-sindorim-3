@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> | <router-link to="/databinding1">Data Binding</router-link> |
+    <router-link to="/provide">Home</router-link> | <router-link to="/databinding1">Data Binding</router-link> |
     <router-link to="/databindinghtml2">Data Binding Html</router-link> |
     <router-link to="/databindingInputText3">Data Binding InputText</router-link> |
     <router-link to="/databindinginputnumber4">Data Binding number input</router-link> |
@@ -44,6 +44,8 @@
     <router-link to="/props4 ">프롭스-예제 4(에밋)-(자식에서 부모로)</router-link> |
     <hr />
     <router-link to="/slot ">slot 예제</router-link> |
+    <hr />
+    <router-link to="/provide ">provide/inject 예제</router-link> |
   </nav>
   <router-view />
 </template>

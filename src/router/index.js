@@ -213,6 +213,30 @@ const routes = [
     path: '/provide',
     name: 'BigComponent',
     component: () => import(/* webpackChunkName: "provide" */ '../views/provideinject/BigComponent1.vue')
+  },
+  {
+    // src\views\composition\CalculatorView.vue
+    path: '/cal1',
+    name: 'CalculatorView',
+    component: () => import(/* webpackChunkName: "cal1" */ '../views/composition/CalculatorView1.vue')
+  },
+  {
+    // src\views\composition\CalculatorView.vue
+    path: '/cal2',
+    name: 'CalculatorCompositionView1',
+    component: () => import(/* webpackChunkName: "cal1" */ '../views/composition/CalculatorCompositionView1.vue')
+  },
+  {
+    // src\views\composition\CalculatorView.vue
+    path: '/cal3',
+    name: 'CompositionRef2',
+    component: () => import(/* webpackChunkName: "cal3" */ '../views/composition/CompositionRef2.vue')
+  },
+  {
+    //D:\sindorim-vue3\vue3-sindorim-3\src\views\composition\CompositionToRef3.vue
+    path: '/cal4',
+    name: 'CompositionToRef3',
+    component: () => import(/* webpackChunkName: "cal3" */ '../views/composition/CompositionToRef3.vue')
   }
 ]
 

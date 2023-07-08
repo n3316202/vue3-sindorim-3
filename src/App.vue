@@ -9,7 +9,7 @@
     <router-link to="/databindingcheckbox7">Data Binding Check Box</router-link> |
     <router-link to="/databindingcheckbox8">Data Binding Check Box2</router-link> |
     <router-link to="/databindingcheckbox8">Data Binding Radio</router-link> |
-    <hr />
+    <HRDelimeter title="바인딩 예제" />
     <router-link to="/databindingattribute10">Data Binding v-bind 예제(img/src)</router-link> |
     <router-link to="/databindingbutton11">Data Binding v-bind 버튼예제(disabled)</router-link> |
     <router-link to="/databindingclass12">Data Binding v-bind 클래스예제-1</router-link> |
@@ -46,9 +46,21 @@
     <router-link to="/slot">slot 예제</router-link> |
     <hr />
     <router-link to="/provide">provide/inject 예제</router-link> |
+    <HRDelimeter title="컴포지션 API 예제들" />
+    <router-link to="/cal1">계산기(기존 계산기 예제)</router-link> |
+    <router-link to="/cal2">계산기(컴포지션 API 예제)</router-link> |
+    <router-link to="/cal3">계산기(Ref 예제)</router-link> | <router-link to="/cal3">계산기(Ref 예제)</router-link> |
+    <router-link to="/cal4">ToRef 예제</router-link> |
   </nav>
   <router-view />
 </template>
+<script>
+import HRDelimeter from '@/views/utils/HRDelimeter.vue'
+//src\views\utils\HRDelimeter.vue
+export default {
+  components: { HRDelimeter }
+}
+</script>
 
 <style>
 #app {

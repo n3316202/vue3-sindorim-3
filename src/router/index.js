@@ -192,9 +192,16 @@ const routes = [
     component: () => import(/* webpackChunkName: "props3" */ '../views/props/ParentComponent3.vue')
   },
   {
+    //D:\sindorim-vue3\vue3-sindorim-3\src\views\props\ParentComponentEmit4.vue
     path: '/props4',
     name: 'ParentComponentEmit4',
     component: () => import(/* webpackChunkName: "props4" */ '../views/props/ParentComponentEmit4.vue')
+  },
+  {
+    //src\views\slot\SlotUseModalLayout.vue
+    path: '/slot',
+    name: 'SlotUseModalLayout',
+    component: () => import(/* webpackChunkName: "slot" */ '../views/slot/SlotUseModalLayout.vue')
   }
 ]
 

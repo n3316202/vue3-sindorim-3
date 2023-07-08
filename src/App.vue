@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <router-link to="/provide">Home</router-link> | <router-link to="/databinding1">Data Binding</router-link> |
+    <router-link to="/">Home</router-link> | <router-link to="/databinding1">Data Binding</router-link> |
     <router-link to="/databindinghtml2">Data Binding Html</router-link> |
     <router-link to="/databindingInputText3">Data Binding InputText</router-link> |
     <router-link to="/databindinginputnumber4">Data Binding number input</router-link> |

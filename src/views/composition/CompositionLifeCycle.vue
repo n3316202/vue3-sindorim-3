@@ -10,6 +10,10 @@
 // mounted -> onMounted
 // unmounted -> onUnmounted
 // updated -> onUpdated
+
+// setup은 컴포넌트 라이프사이은 기존의 beforeCreate created 훅사이에서 실행 됨
+// mounted 이전에 실행되므로 setup 함수 내에 this를 사용할수 없다.
+
 export default {
   // 사용할 props를 배열내에 정의합니다.
   props: ['posts'],

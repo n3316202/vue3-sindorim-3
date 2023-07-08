@@ -236,7 +236,19 @@ const routes = [
     //D:\sindorim-vue3\vue3-sindorim-3\src\views\composition\CompositionToRef3.vue
     path: '/cal4',
     name: 'CompositionToRef3',
-    component: () => import(/* webpackChunkName: "cal3" */ '../views/composition/CompositionToRef3.vue')
+    component: () => import(/* webpackChunkName: "cal4" */ '../views/composition/CompositionToRef3.vue')
+  },
+  {
+    //src\views\composition\CompositionFunctions4.vue
+    path: '/cal5',
+    name: 'CompositionFunctions4',
+    component: () => import(/* webpackChunkName: "cal5" */ '../views/composition/CompositionFunctions4.vue')
+  },
+  {
+    //src\views\composition\CompositionAPIProvide5.vue
+    path: '/cal6',
+    name: 'CompositionAPIProvide5',
+    component: () => import(/* webpackChunkName: "cal6" */ '../views/composition/CompositionAPIProvide5.vue')
   }
 ]
 

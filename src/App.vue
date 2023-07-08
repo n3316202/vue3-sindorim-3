@@ -51,6 +51,8 @@
     <router-link to="/cal2">계산기(컴포지션 API 예제)</router-link> |
     <router-link to="/cal3">계산기(Ref 예제)</router-link> | <router-link to="/cal3">계산기(Ref 예제)</router-link> |
     <router-link to="/cal4">ToRef 예제</router-link> |
+    <router-link to="/cal5">컴포지션 API-함수들(computed,watch,watchEffect)</router-link> |
+    <router-link to="/cal6">컴포지션 provide/injection</router-link> |
   </nav>
   <router-view />
 </template>

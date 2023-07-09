@@ -46,6 +46,7 @@
     <router-link to="/slot">slot 예제</router-link> |
     <hr />
     <router-link to="/provide">provide/inject 예제</router-link> |
+
     <HRDelimeter title="컴포지션 API 예제들" />
     <router-link to="/cal1">계산기(기존 계산기 예제)</router-link> |
     <router-link to="/cal2">계산기(컴포지션 API 예제)</router-link> |
@@ -53,6 +54,13 @@
     <router-link to="/cal4">ToRef 예제</router-link> |
     <router-link to="/cal5">컴포지션 API-함수들(computed,watch,watchEffect)</router-link> |
     <router-link to="/cal6">컴포지션 provide/injection</router-link> |
+
+    <HRDelimeter title="믹스(minxin) 예제" />
+    <router-link to="/mixin1">믹스인이 필요한 상항-1</router-link> |
+    <router-link to="/mixin2">믹스인이 필요한 상항-2</router-link> |
+    <router-link to="/mixin3">믹스인 사용 예제</router-link> |
+    <router-link to="/mixin4">믹스인 사용 예제 - 2</router-link> |
+    <router-link to="/mixin5">믹스인 전용 사용 예제 - 3</router-link> |
   </nav>
   <router-view />
 </template>

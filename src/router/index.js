@@ -249,6 +249,36 @@ const routes = [
     path: '/cal6',
     name: 'CompositionAPIProvide5',
     component: () => import(/* webpackChunkName: "cal6" */ '../views/composition/CompositionAPIProvide5.vue')
+  },
+  {
+    //src\views\mixins\NeedMixinExample1.vue
+    path: '/mixin1',
+    name: 'NeedMixinExample1',
+    component: () => import(/* webpackChunkName: "mix1" */ '../views/mixin/NeedMixinExample1.vue')
+  },
+  {
+    //src\views\mixins\NeedMixinExample2.vue
+    path: '/mixin2',
+    name: 'NeedMixinExample12',
+    component: () => import(/* webpackChunkName: "mix2" */ '../views/mixin/NeedMixinExample2.vue')
+  },
+  {
+    //src\views\mixin\UseMixinExample3.vue
+    path: '/mixin3',
+    name: 'UseMixinExample3',
+    component: () => import(/* webpackChunkName: "mix3" */ '../views/mixin/UseMixinExample3.vue')
+  },
+  {
+    //src\views\mixin\UseMixinExample3.vue
+    path: '/mixin4',
+    name: 'UseMixinExample4',
+    component: () => import(/* webpackChunkName: "mix4" */ '../views/mixin/UseMixinExample4.vue')
+  },
+  {
+    //src\views\mixin\UseMixinGlobal5.vue
+    path: '/mixin5',
+    name: 'UseMixinGlobal5',
+    component: () => import(/* webpackChunkName: "mix5" */ '../views/mixin/UseMixinGlobal5.vue')
   }
 ]
 

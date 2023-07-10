@@ -1,17 +1,39 @@
 import { createRouter, createWebHistory } from "vue-router";
-import HomeView from "../views/HomeView.vue";
-import AboutView from "../views/AboutView.vue";
+// import HomeView from "../views/HomeView.vue";
+// import AboutView from "../views/AboutView.vue";
 
+// const routes = [
+//   {
+//     path: "/",
+//     name: "home",
+//     component: HomeView,
+//   },
+//   {
+//     path: "/about",
+//     name: "about",
+//     component: AboutView,
+//   },
+// ];
+
+//component: () => import(/* webpackChunkName: "about"*/ /*webpackPrefetch: true*/ '../views/AboutView.vue')
+
+//lazy loading 사용시
 const routes = [
   {
     path: "/",
     name: "home",
-    component: HomeView,
+    component: () =>
+      import(
+        /* webpackChunkName: "home" */ /*webpackPrefetch: true*/ "../views/HomeView.vue"
+      ),
   },
   {
     path: "/about",
     name: "about",
-    component: AboutView,
+    component: () =>
+      import(
+        /* webpackChunkName: "about" */ /*webpackPrefetch: true*/ "../views/AboutView.vue"
+      ),
   },
 ];
 

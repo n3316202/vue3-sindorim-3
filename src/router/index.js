@@ -279,6 +279,12 @@ const routes = [
     path: '/mixin5',
     name: 'UseMixinGlobal5',
     component: () => import(/* webpackChunkName: "mix5" */ '../views/mixin/UseMixinGlobal5.vue')
+  },
+  {
+    //src\views\vuex\UsersVuexView.vue
+    path: '/vuex1',
+    name: 'UsersVuexView',
+    component: () => import(/* webpackChunkName: "mix5" */ '../views/vuex/UsersVuexView.vue')
   }
 ]
 

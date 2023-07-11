@@ -63,7 +63,9 @@
     <router-link to="/mixin5">믹스인 전용 사용 예제 - 3</router-link> |
 
     <HRDelimeter title="Vuex 4.0 예제" />
-    <router-link to="/vuex1">Vuex 예제 - 3</router-link> |
+    <router-link to="/vuex1">Vuex 예제</router-link> |
+    <HRDelimeter title="Pinia 예제" />
+    <router-link to="/pinia1">피니아 예제-1</router-link> |
   </nav>
   <router-view />
 </template>

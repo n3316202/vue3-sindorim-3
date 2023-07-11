@@ -3,7 +3,8 @@ import App from './App.vue'
 import router from './router'
 import axios from 'axios'
 import mixin from '@/mixins/mixins'
-import store from './store'
+// import store from './store'
+import { createPinia } from 'pinia'
 
 //createApp(App).use(router).mount('#app')
 
@@ -20,7 +21,10 @@ app.use(router)
 app.mixin(mixin)
 
 //[Vuex 사용법]
-app.use(store)
+// app.use(store)
+
+//[Pinia 사용법]
+app.use(createPinia())
 
 // [main 아이디 : 렌더링 시작점]
 app.mount('#app')

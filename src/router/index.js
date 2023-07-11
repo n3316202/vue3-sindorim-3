@@ -284,7 +284,13 @@ const routes = [
     //src\views\vuex\UsersVuexView.vue
     path: '/vuex1',
     name: 'UsersVuexView',
-    component: () => import(/* webpackChunkName: "mix5" */ '../views/vuex/UsersVuexView.vue')
+    component: () => import(/* webpackChunkName: "vuex1" */ '../views/vuex/UsersVuexView.vue')
+  },
+  {
+    //src\views\pinia\PiniaExampleView.vue
+    path: '/pinia1',
+    name: 'PiniaExampleView',
+    component: () => import(/* webpackChunkName: "pinia1" */ '../views/pinia/PiniaExampleView.vue')
   }
 ]
 

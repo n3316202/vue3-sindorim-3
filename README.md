@@ -1,8 +1,9 @@
-# Vuex 4.0
+1. Pinia 설치
 
-## 설치
+npm install pinia
 
-npm install vuex@next --save
+2. Pinia 등록
 
-Vuex란?
-vue에서 상태 관리를 하기 위한 라이브러리
+//main.js 에 아래와 같이 등록
+
+import { createPinia } from 'pinia'

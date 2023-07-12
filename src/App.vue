@@ -1,4 +1,5 @@
 <template>
+  <main-header></main-header>
   <nav>
     <router-link to="/">Home</router-link> | <router-link to="/databinding1">Data Binding</router-link> |
     <router-link to="/databindinghtml2">Data Binding Html</router-link> |
@@ -69,12 +70,22 @@
   </nav>
   <router-view />
 </template>
-<script>
+
+<script setup>
+import MainHeader from '@/components/MainHeader.vue'
 import HRDelimeter from '@/views/utils/HRDelimeter.vue'
-//src\views\utils\HRDelimeter.vue
-export default {
-  components: { HRDelimeter }
-}
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
+
+router.options.routes.forEach((route, index) => {
+  console.log(route.path + ':' + index)
+
+  console.log(route.children)
+  // route.children.forEach((child) => {
+  //   console.log(child)
+  // })
+})
 </script>
 
 <style>

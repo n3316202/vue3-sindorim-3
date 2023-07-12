@@ -8,9 +8,19 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/databinding1',
+    path: '/data',
     name: 'DataBinding1',
-    component: () => import(/* webpackChunkName: "databing1" */ '../views/directives/basic/DataBinding1.vue')
+    component: () => import(/* webpackChunkName: "databing1" */ '../views/directives/basic/DataBinding1.vue'),
+    children: [
+      {
+        path: 'binding1',
+        component: () => import(/* webpackChunkName: "databing1" */ '../views/directives/basic/DataBinding1.vue')
+      },
+      {
+        path: 'binding2',
+        component: () => import(/* webpackChunkName: "databing1" */ '../views/directives/basic/DataBindingHtml2.vue')
+      }
+    ]
   },
   {
     path: '/databindinghtml2',

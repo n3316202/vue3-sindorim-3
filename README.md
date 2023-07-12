@@ -7,3 +7,6 @@ npm install pinia
 //main.js 에 아래와 같이 등록
 
 import { createPinia } from 'pinia'
+
+아래 참고
+https://www.univdev.page/posts/about-pinia/

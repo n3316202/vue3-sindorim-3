@@ -1,6 +1,7 @@
 <template>
   <main-header></main-header>
-  <nav>
+  <router-view />
+  <!-- <nav>
     <router-link to="/">Home</router-link> | <router-link to="/databinding1">Data Binding</router-link> |
     <router-link to="/databindinghtml2">Data Binding Html</router-link> |
     <router-link to="/databindingInputText3">Data Binding InputText</router-link> |
@@ -67,21 +68,29 @@
     <router-link to="/vuex1">Vuex 예제</router-link> |
     <HRDelimeter title="Pinia 예제" />
     <router-link to="/pinia1">피니아 예제-1</router-link> |
-  </nav>
-  <router-view />
+  </nav> -->
 </template>
 
 <script setup>
 import MainHeader from '@/components/MainHeader.vue'
-import HRDelimeter from '@/views/utils/HRDelimeter.vue'
+// import HRDelimeter from '@/views/utils/HRDelimeter.vue'
 import { useRouter } from 'vue-router'
 
 const router = useRouter()
-
+let children = []
 router.options.routes.forEach((route, index) => {
   console.log(route.path + ':' + index)
 
-  console.log(route.children)
+  if (route && Array.isArray(route.children)) {
+    children = route.children
+  } else if (route) {
+    children = []
+  }
+
+  children.forEach((child) => {
+    console.log(child.path)
+  })
+  //console.log(children)
   // route.children.forEach((child) => {
   //   console.log(child)
   // })

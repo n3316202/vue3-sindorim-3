@@ -26,34 +26,33 @@ const routes = [
       {
         path: 'databindinginputtext3',
         name: 'DataBindingInputText3',
-        meta: { title: 'InputText' },
+        meta: { title: 'InputText 바인딩' },
         component: () =>
           import(
             /* webpackChunkName: "databindinginputtext3" */ '../views/directives/form-input/DataBindingInputText3.vue'
           )
+      },
+      {
+        path: 'databindinginputnumber4',
+        name: 'DataBindingInputNumber4',
+        meta: { title: 'Input Number 바인딩' },
+        component: () =>
+          import(
+            /* webpackChunkName: "databindinginputnumber4" */ '../views/directives/form-input/DataBindingInputNumber4.vue'
+          )
+      },
+      {
+        path: 'databindingtextarea5',
+        name: 'DataBindingTextarea5',
+        meta: { title: 'Text Area 바인딩' },
+        component: () =>
+          import(
+            /* webpackChunkName: "databindingtextarea5" */ '../views/directives/form-input/DataBindingTextarea5.vue'
+          )
       }
     ]
   }
-  // {
-  //   path: '/databindinginputtext3',
-  //   name: 'DataBindingInputText3',
-  //   component: () =>
-  //     import(/* webpackChunkName: "databindinginputtext3" */ '../views/directives/form-input/DataBindingInputText3.vue')
-  // },
-  // {
-  //   path: '/databindinginputnumber4',
-  //   name: 'DataBindingInputNumber4',
-  //   component: () =>
-  //     import(
-  //       /* webpackChunkName: "databindinginputnumber4" */ '../views/directives/form-input/DataBindingInputNumber4.vue'
-  //     )
-  // },
-  // {
-  //   path: '/databindingtextarea5',
-  //   name: 'DataBindingTextarea5',
-  //   component: () =>
-  //     import(/* webpackChunkName: "databindingtextarea5" */ '../views/directives/form-input/DataBindingTextarea5.vue')
-  // },
+
   // {
   //   path: '/databindingselect6',
   //   name: 'databindingselect6',

@@ -1,6 +1,7 @@
 <template>
   <main-header></main-header>
   <router-view />
+
   <!-- <nav>
     <router-link to="/">Home</router-link> | <router-link to="/databinding1">Data Binding</router-link> |
     <router-link to="/databindinghtml2">Data Binding Html</router-link> |
@@ -73,6 +74,7 @@
 
 <script setup>
 import MainHeader from '@/components/MainHeader.vue'
+
 // import HRDelimeter from '@/views/utils/HRDelimeter.vue'
 import { useRouter } from 'vue-router'
 
@@ -90,32 +92,7 @@ router.options.routes.forEach((route, index) => {
   children.forEach((child) => {
     console.log(child.path)
   })
-  //console.log(children)
-  // route.children.forEach((child) => {
-  //   console.log(child)
-  // })
 })
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-nav {
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
-}
-</style>
+<style scoped></style>

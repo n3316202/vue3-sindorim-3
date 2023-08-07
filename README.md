@@ -1,9 +1,6 @@
-https://mkonji23.tistory.com/24
+슬롯 관계 설명
+https://velog.io/@kungsboy/Vue-3.0-Slots%EC%8A%AC%EB%A1%AF
 
-Vue 에서 $(dollar)의 의미
+Slot은 자식(하위) 컴포넌트를 그대로 유지하면서 다른 부모(상위) 컴포넌트들마다 다른 내용을 적용하고 싶을 때 사용한다.
 
-1. vue에서 전역 객체 속성이다.
-
-private하게 사용하는게 아닌 public하게 사용하는 속성
-
-ex) this.$emit, this.$router.push({}) ..... 등등
+slot이란 부모가 되는 컴포넌트쪽에서 자식 컴포넌트의 템플렛의 일부를 삽입하는 기능이다. 참고로,

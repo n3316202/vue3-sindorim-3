@@ -43,7 +43,7 @@
     <router-link to="/props3">프롭스-예제 3(데이터값 직접 변경)</router-link> |
     <router-link to="/props4">프롭스-예제 4(에밋)-(자식에서 부모로)</router-link> |
     <hr />
-    <router-link to="/slot">slot 예제</router-link> |
+    <router-link to="/slot">slot 예제</router-link> | <router-link to="/slot2">slot 기본</router-link> |
   </nav>
   <router-view />
 </template>

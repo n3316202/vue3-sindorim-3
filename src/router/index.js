@@ -202,6 +202,12 @@ const routes = [
     path: '/slot',
     name: 'SlotUseModalLayout',
     component: () => import(/* webpackChunkName: "slot" */ '../views/slot/SlotUseModalLayout.vue')
+  },
+  {
+    //src\views\slot\SlotUseModalLayout.vue
+    path: '/slot2',
+    name: 'SlotParent',
+    component: () => import(/* webpackChunkName: "slot" */ '../views/slot/SlotParent.vue')
   }
 ]
 

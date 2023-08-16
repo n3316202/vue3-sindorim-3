@@ -53,6 +53,8 @@
     <router-link to="/cal4">ToRef 예제</router-link> |
     <router-link to="/cal5">컴포지션 API-함수들(computed,watch,watchEffect)</router-link> |
     <router-link to="/cal6">컴포지션 provide/injection</router-link> |
+    <HRDelimeter title="스크립트 Setup" />
+    <router-link to="/setup1">스크립트세업</router-link> |
   </nav>
   <router-view />
 </template>

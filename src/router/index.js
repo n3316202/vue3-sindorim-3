@@ -249,6 +249,12 @@ const routes = [
     path: '/cal6',
     name: 'CompositionAPIProvide5',
     component: () => import(/* webpackChunkName: "cal6" */ '../views/composition/CompositionAPIProvide5.vue')
+  },
+  {
+    //src\views\composition\CompositionAPIProvide5.vue
+    path: '/setup1',
+    name: 'CompositionSetup1',
+    component: () => import(/* webpackChunkName: "setup1" */ '../views/composition/setup/CompositionSetup1.vue')
   }
 ]
 

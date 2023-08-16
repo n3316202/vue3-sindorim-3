@@ -9,6 +9,8 @@
 </template>
 
 <script setup>
+//https://velog.io/@kungsboy/Vue-3.0-Vuexv4.0-%EB%9E%80
+
 import { ref, onMounted, computed } from 'vue'
 import { useStore } from 'vuex'
 const store = useStore()

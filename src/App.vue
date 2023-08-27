@@ -55,6 +55,7 @@
     <router-link to="/cal6">컴포지션 provide/injection</router-link> |
     <HRDelimeter title="스크립트 Setup" />
     <router-link to="/setup1">스크립트세업</router-link> |
+    <router-link to="/setup2">스크립트세업-프롭스-1</router-link> |
   </nav>
   <router-view />
 </template>

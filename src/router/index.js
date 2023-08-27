@@ -253,8 +253,15 @@ const routes = [
   {
     //src\views\composition\CompositionAPIProvide5.vue
     path: '/setup1',
-    name: 'CompositionSetup1',
-    component: () => import(/* webpackChunkName: "setup1" */ '../views/composition/setup/CompositionSetup1.vue')
+    name: 'ScriptSetup1',
+    component: () => import(/* webpackChunkName: "setup1" */ '../views/composition/setup/ScriptSetup1.vue')
+  },
+  {
+    //src\views\composition\CompositionAPIProvide5.vue
+    path: '/setup2',
+    name: 'ScriptSetup2',
+    component: () =>
+      import(/* webpackChunkName: "setup2" */ '../views/composition/setup/ScriptSetupforPropsAndEmitParent2.vue')
   }
 ]
 

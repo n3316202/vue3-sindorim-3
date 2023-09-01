@@ -6,8 +6,9 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
     <!-- router-link에 to 속성에 path 대신 name을 지정 가능 -->
-    <router-link :to="{name :'example'}">링크 예제</router-link> | 
-    <router-link :to="{name :'example', params:{username : '홍길동'}}">링크 파라미터 전달 예제</router-link> | 
+    <!-- <router-link :to="{name :'example'}">링크 예제</router-link> | 
+    <router-link :to="'/example/' +  '홍길동'">링크 파라미터 전달 예제</router-link> |  -->
+    <!-- <router-link :to="{name :'example', params:{username : '홍길동'}}">링크 파라미터 전달 예제</router-link> |  -->
 
   </nav>
   <!-- 라우트 아울렛 -->

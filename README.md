@@ -7,6 +7,9 @@ https://ryu-e.tistory.com/53
 
 ## https://velog.io/@kungsboy/Vue-3.0-vue-router-%EC%84%A4%EB%AA%85
 
+## https://velog.io/@yjyoo/vue.js-Vue-Router-%EC%A0%95%EB%A6%AC
+- 기본설명
+
 3. lazy loading
 
 SPA의 특성상 모든 파일이 로드 되어야 서버의 호출 없이 다음 페이지로의 전환이 이루어 지는데
